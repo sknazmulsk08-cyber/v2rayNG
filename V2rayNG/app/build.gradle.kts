@@ -10,7 +10,7 @@ android {
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.v2ray.ang"
+        applicationId = "com.nazmul.2ray.ang"
         minSdk = 24
         targetSdk = 37
         versionCode = 747
