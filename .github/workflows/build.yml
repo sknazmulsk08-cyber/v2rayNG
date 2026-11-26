@@ -92,7 +92,7 @@ jobs:
         echo "sdk.dir=${ANDROID_HOME}" > local.properties
         chmod 755 gradlew
         ./gradlew licenseFdroidReleaseReport
-        ./gradlew assembleDebug
+        ./gradlewassembleFdroidDebug
 
     - name: Upload APK
       uses: actions/upload-artifact@v7
