@@ -76,5 +76,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v7
         with:
-          name: nazmul-v2ray-apk
+          name: nazmul-v2ray-v2-apk
           path: ${{ github.workspace }}/V2rayNG/app/build/outputs/apk/**/debug/*arm64-v8a*.apk
